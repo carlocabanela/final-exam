@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1 {
+    padding: 20px;
+    text-align: center;
+}
+#header1 {
+    width: 100px;
+    background-color: goldenrod;
+    float: right;
+    text-align: center;
+    font-size: 16px;
+    border: 1px solid black;
+    border-radius: 3px;
+}
+#header2 {
+    width: 100px;
+    background-color: tomato;
+    float: right;
+    text-align: center;
+    font-size: 16px;
+    border: 1px solid black;
+    border-radius: 3px;
+}
+#header3 {
+    width: 100px;
+    background-color: salmon;
+    float: right;
+    text-align: center;
+    font-size: 16px;
+    border: 1px solid black;
+    border-radius: 3px;
+}
+p {
+    padding: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+@media(min-width: 992px){
+    .menu-container {
+        width: 30%;
+        height: auto;
+        margin-left: 20px;
+        background-color: lightgreen;
+        margin-bottom: 10px;
+        float: left;
+        border: 1px solid black;
+        border-radius: 3px;
+    }
+}
+
+@media(min-width: 768px) and (max-width: 991px){
+    .menu-container .content1 {
+        width: 47%;
+        height: auto;
+        margin-left: 20px;
+        background-color: lightgreen;
+        margin-bottom: 10px;
+        float: left;
+        border: 1px solid black;
+        border-radius: 3px;
+    }
+    .menu-container .content2 {
+        width: 47%;
+        height: auto;
+        margin-left: 20px;
+        background-color: lightgreen;
+        margin-bottom: 10px;
+        float: left;
+        border: 1px solid black;
+        border-radius: 3px;
+    }
+    .menu-container .content3 {
+        width: 97%;
+        height: auto;
+        margin-left: 20px;
+        background-color: lightgreen;
+        margin-bottom: 10px;
+        float: left;
+        border: 1px solid black;
+        border-radius: 3px;
+        margin-top: 10px;
+    }
+}
+@media(max-width: 767px){
+    .menu-container {
+        width: 97%;
+        height: auto;
+        margin-left: 20px;
+        background-color: lightgreen;
+        margin-bottom: 10px;
+        float: left;
+        border: 1px solid black;
+        border-radius: 3px;
+    }
+}
